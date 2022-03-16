@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Presupuestos</title>
+        <meta name="Keywords" content="Carpinteria,Maderas,Muebles,farmacias"/>
+        <meta name="rights" content="Juan manuel CD"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+        <meta name="Descripcion" content="Especialistas en fabricacion de muebles y cocinas"/>
+        <meta name="autor" content="Pedro Leal Gonzalez"/>
+        <meta name="copyright" content="Pedro Leal Gonzalez"/>
+        <link rel="icon" type="image/png" sizes="16x16"  href="../multimedia/favicon/favicons/favicon-16x16.png">
+        <link rel = "stylesheet" href="../CSS/estilos5.CSS">
+        <link rel = "stylesheet" href="../CSS/Normalice.css">
+    </head>
+    <body>
+        <header>
+            <nav class="menu-fixed">
+                <a href="../index.html">INICIO</a>
+                <a href="../Contenido/Empresa.html">EMPRESA</a>
+                <a href="../Contenido/Trabajos.html">TRABAJOS</a>
+                <a href="../Contenido/Presupuestos.html">PRESUPUESTOS</a>
+                <a href="../Contenido/Contactanos.html">CONTACTAR</a>
+            </nav>
+        </header>
+        <main>
+            <div class="contenedor">
+                <fieldset class="contenedor-main">
+                    <legend>Consultanos tu idea</legend>
+                    <form action="/actiop_page.php">
+                    <label for="name">Tu nombre</label>
+                    <input type="text" id="name"><br><br>
+                    <label for="fapellido">Tu apellido:</label>
+                    <input type="text" id="fapellido"><br><br>
+                    <label for="fEmail">@mail</label>
+                    <input type="email" id="fEmail"><br><br>
+                    <label for="numero">Tu numero</label>
+                    <input type="number" id="numero"><br><br>
+                    <label for="fprovincia">Tu provincia</label>
+                    <select id="fprovincia" name="Provincia"><br><br>
+                        <option value="Caceres">Caceres</option>
+                        <option value="Badajoz">Badajoz</option>
+                        <input value="Extremadura">
+                    </selec><br><br>
+                    <label for="Trabajo">Trabajo de</label>
+                    <select id="Trabajo" name="Trabajo">
+                        <option value="Cocina">Cocina</option>
+                        <option value="Farmacia">Farmacia</option>
+                        <option value="Otros">Otros</option>
+                        <input value="a punto de cumplirse">
+                    </selec><br><br>
+                    <label for="Idea">Que Quieres hacer</label>
+                    <input type="text" id="Idea"><br><br>
+                    <input type="submit" value="submit">
+                </fieldset>
+            </div>
+        </main>
+        <footer>
+            <h2 class="titulo-final">&copy;Juan Manuel CB</h2>
+        </footer>
+    </body>
+</html>
